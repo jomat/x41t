@@ -1,0 +1,8 @@
+Various stuff I've set up for my IBM X41t.
+
+Rotate screen
+-------------
+Install lineakd, configure it in ~/.lineak/* and put the rotation script to
+/usr/local/bin to rotate the screen to the right direction (determined by the
+hdaps sensor) upon pushing the rotation button below the screen.
+
