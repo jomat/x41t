@@ -1,0 +1,27 @@
+# LinEAK - Linux support for Easy Access and Internet Keyboards
+#  Copyright (c) 2001,2002, 2003 Sheldon Lee Wen <leewsb@hotmail.com>
+# 	and Mark Smulders <Mark@PIRnet.nl>
+#  http://lineak.sourceforge.net
+#
+# keyboard definition file:
+#   this file defines the extra keys of the keyboard types,
+#   and the corresponding keycode.
+#
+# if your keyboard is not in here, please send me an e-mail so
+# I can add support for it.
+#
+# WARNING: this definition file is NOT compatible with
+#          lineakd 0.1 and 0.2
+#          lineakconfig 0.1
+
+
+[USRjix]
+     brandname = ibm
+     modelname = x41
+     [KEYS]
+          IBM=156
+          ntr=129
+          rot=128
+     [END KEYS]
+[END USRjix]
+
